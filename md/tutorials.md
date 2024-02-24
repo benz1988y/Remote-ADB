@@ -1,10 +1,11 @@
 ## Tutorials
+### 💎💎💎💎💎💎 If the application is not working, please make sure to refer to the following tutorial. If you are a beginner or using this application for the first time, please make sure to refer to the following tutorial. If you have any questions, please refer to the following FAQ or contact us via email (colorboxguestservice@gmail.com).🍏🍎🍐🍊🍋🍌🍉🍇🍓🍈🍒🍑🥭🍍🥥🥝🍅
 ### ❤️How to open and connect adb ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 - [⚡Open and connect adb(From google)](https://developer.android.com/studio/command-line/adb)
-- [👍Connect adb (Android 4.x ~ Android 13)](./connectADB4x_13.md)
-- [Pair and connect adb (Android 11 ~ Android 13)](./connectADB11_13.md)
-- [👍Open mobile adb(Android 4.x ~ Android 13)](./openMobileADB4x_13.md)
-- [Open mobile adb(Android 11 ~ Android 13)](./openMobileADB11_13.md)
+- [👍Connect adb (Android 4.x ~ Android 14)](./connectADB4x_13.md)
+- [Pair and connect adb (Android 11 ~ Android 14)](./connectADB11_13.md)
+- [👍Open mobile adb(Android 4.x ~ Android 14)](./openMobileADB4x_13.md)
+- [Open mobile adb(Android 11 ~ Android 14)](./openMobileADB11_13.md)
 - [Open TV/TV Box adb](./openTVADB.md)
 
 ### FAQ directory
@@ -90,15 +91,15 @@
    - Please confirm that the command you entered is correct.
 
 10. #### I don't have a PC, how can I use this application locally?
-   1. Refer to [Pair and connect adb (Android 11 ~ Android 13)](./connectADB11_13.md)
-   2. Then open the network port(Must be connected state)
+    1. Refer to [Pair and connect adb (Android 11 ~ Android 13)](./connectADB11_13.md)
+    2. Then open the network port(Must be connected state)
       ```
       $ adb devices
         List of devices attached
         192.168.3.100:5556      device
       $ adb tcpip 5555
       ```
-   3. Refer to [How to use this app locally?](#how-to-use-this-app-locally)
+    3. Refer to [How to use this app locally?](#how-to-use-this-app-locally)
 
 11. #### Is this app malware?
     This application is an ADB development tool, not a malicious software. If your phone has been compromised, please check if there are any other malicious software on your device.
@@ -117,7 +118,7 @@
     For security reasons, the Android operating system does not allow granting executable permissions to files in the /sdcard (or external storage) by default. This is done to prevent potential security risks and to protect user devices from malicious software or apps abusing permissions. 
     ##### Solution:You can copy the file to the /data/local/tmp/ directory, which allows granting executable permissions.
     ```
-    cp YOUR_FILE /data/local/temp/
+    cp YOUR_FILE /data/local/tmp/
     ```
 
 15. #### ADB connection takes too long.
@@ -144,7 +145,7 @@
     For security reasons, the Android operating system does not allow granting executable permissions to files in the /sdcard (or external storage) by default. This is done to prevent potential security risks and to protect user devices from malicious software or apps abusing permissions. 
     ##### Solution:You can copy the file to the /data/local/tmp/ directory, which allows granting executable permissions.
     ```
-    cp YOUR_FILE /data/local/temp/
+    cp YOUR_FILE /data/local/tmp/
     ```
 
 22. #### I hope to use this application to monitor someone else's phone and invade their privacy.
